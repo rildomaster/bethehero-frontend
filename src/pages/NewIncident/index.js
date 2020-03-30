@@ -38,7 +38,7 @@ export default function NewIncident() {
             history.push('/profile');
 
         } catch (error) {
-            alert(`erro ao cadastrar novo caso.\n${error.response.data.error}`);
+            alert(`erro ao cadastrar novo caso.\n${error.response.data.message}`);
         }
     }
 

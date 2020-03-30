@@ -39,7 +39,7 @@ export default function Register() {
             history.push('/');
 
         } catch (error) {
-            alert(`Erro ao realizar cadastro, tente novamente:\n ${error.response.data.error}`);
+            alert(`Erro ao realizar cadastro, tente novamente:\n ${error.response.data.message}`);
         }
     }
 
